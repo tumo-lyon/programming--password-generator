@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tumo - Password Generator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="style/images/logo_tumo.png" />
+      <h1>Tumo - Password Generator</h1>
+      <img src="style/images/logo_campus.png" />
+    </header>
+    <div class="body-wrapper">
+      <div class="body-box password-box">
+        <img id="pass-copy" src="style/images/copy.png" />
+        <p id="password-output">Some Password</p>
+        <img id="pass-regen" src="style/images/copy.png" />
+      </div>
+      <div class="body-box">
+        <form>
+          <label for="pass-lenght">Password length:</label>
+          <input id="pass-length" type="range" min="8" max="128" />
+          <br />
+          <label for="inc-symbols">Include symbols:</label>
+          <input id="inc-symbols" name="inc-symbols" type="checkbox" />
+          <label for="inc-numbers">Include numbers:</label>
+          <input id="inc-numbers" name="inc-numbers" type="checkbox" />
+          <label for="inc-lowercase">Include lowercase characters:</label>
+          <input id="inc-lowercase" name="inc-lowercase" type="checkbox" />
+          <label for="inc-uppercase">Include uppercase characters:</label>
+          <input id="inc-uppercase" name="inc-uppercase" type="checkbox" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

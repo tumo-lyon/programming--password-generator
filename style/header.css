@@ -1,0 +1,19 @@
+header {
+  background-color: var(--primary-color);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  box-shadow: var(--shadow-color) 0px 3px 10px;
+}
+
+header img {
+  height: 100%;
+  max-height: 60px;
+}
+
+header h1 {
+  font-family: var(--primary-font-family);
+  color: var(--primary-font-color);
+}
