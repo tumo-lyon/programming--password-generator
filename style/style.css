@@ -3,8 +3,9 @@
 
 :root {
   --background-color: #f1f1f1;
-  --secondary-background-color: rgb(32, 114, 86);
+  --secondary-background-color: #006999;
   --primary-color: #0096dd;
+  --secondary-color: #36bfff;
   --primary-font-family: Arial, Helvetica, sans-serif;
   --secondary-font-family: Consolas, monaco, monospace;
   --primary-font-color: #f5f5f5;

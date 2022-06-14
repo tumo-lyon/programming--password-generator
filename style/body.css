@@ -20,9 +20,19 @@
 
 .password-box img {
   height: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.password-box img:hover {
+  background-color: var(--secondary-color);
 }
 
 #password-output {
   font-size: 40px;
   font-weight: bold;
+  background-color: var(--secondary-background-color);
+  padding: 5px;
+  border-radius: 6px;
 }
