@@ -1,18 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .body-wrapper {
   margin: 5%;
   background-color: transparent;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .body-box {
   background-color: var(--primary-color);
   border-radius: 12px;
-  padding: 1% 3%;
-  margin-bottom: 50px;
+  padding: 1%;
   box-shadow: var(--shadow-color) 3px 3px 10px;
 }
 
+/* Password box */
+
 .password-box {
   height: 80px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +42,39 @@
 #password-output {
   font-size: 40px;
   font-weight: bold;
+  font-family: var(--secondary-font-family);
   background-color: var(--secondary-background-color);
   padding: 5px;
   border-radius: 6px;
+}
+
+/* Options box */
+
+.option-box {
+  flex-grow: 1;
+  max-height: 500px;
+  padding: 4% 5%;
+}
+
+.option-box form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: xx-large;
+}
+
+.form-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='range'] {
+  width: 50%;
+}
+
+input[type='checkbox'] {
+  height: 30px;
+  width: 30px;
+  background-color: blue;
 }
