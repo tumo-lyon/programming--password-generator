@@ -4,6 +4,7 @@
     <title>Tumo - Password Generator</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script src="scripts/index.js"></script>
   </head>
   <body>
     <header>
@@ -20,7 +21,9 @@
       <div class="body-box option-box">
         <form>
           <div class="form-field">
-            <label for="pass-lenght">Password length:</label>
+            <label for="pass-lenght"
+              >Password length: <span id="pass-length-display"></span
+            ></label>
             <input id="pass-length" type="range" min="8" max="128" />
           </div>
           <div class="form-field">
