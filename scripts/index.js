@@ -99,6 +99,15 @@ function randomSymbol() {
   ]);
 }
 
+/**
+ * Copie le mot de passe actuel dans le presse-papiers.
+ */
+function copyToClipboard() {
+  const pass = document.getElementById('password-output');
+
+  navigator.clipboard.writeText(pass.textContent);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   const slider = document.getElementById('pass-length');
   const label = document.getElementById('pass-length-display');

@@ -14,9 +14,17 @@
     </header>
     <div class="body-wrapper">
       <div class="body-box password-box">
-        <img id="pass-copy" src="style/images/copy.png" />
+        <img
+          id="pass-copy"
+          src="style/images/copy.png"
+          onclick="copyToClipboard()"
+        />
         <p id="password-output">Some Password</p>
-        <img id="pass-regen" src="style/images/copy.png" />
+        <img
+          id="pass-regen"
+          src="style/images/refresh.png"
+          onclick="refreshPassword()"
+        />
       </div>
       <div class="body-box option-box">
         <form>
