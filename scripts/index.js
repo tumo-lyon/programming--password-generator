@@ -1,4 +1,26 @@
 /**
+ * Génère et retourne un mots de passe.
+ *
+ * Il est à vous de faire fonctionner cette fonctions.
+ *
+ * @param {number} length La taille que doit faire le mots de passe.
+ * @returns Un mot de passe sécurisé
+ */
+function generatePassword(length) {
+  let pass = 'Not working yet';
+
+  return pass;
+}
+
+/**----------------------------------- */
+/**----------------------------------- */
+/**----------------------------------- */
+/**----------NE PAS MODIFIER---------- */
+/**----------------------------------- */
+/**----------------------------------- */
+/**----------------------------------- */
+
+/**
  * Retourne un élément aléatoire dans une liste donnée.
  *
  * @param {Array} list La liste dont un élément va être choisi
@@ -166,18 +188,4 @@ function refreshPassword() {
   const output = document.getElementById('password-output');
 
   output.textContent = generatePassword(slider.value);
-}
-
-/**
- * Génère et retourne un mots de passe.
- *
- * Il est à vous de faire fonctionner cette fonctions.
- *
- * @param {number} length La taille que doit faire le mots de passe.
- * @returns Un mot de passe sécurisé
- */
-function generatePassword(length) {
-  let pass = 'OOPS ITS NOT WORKING';
-
-  return pass;
 }
