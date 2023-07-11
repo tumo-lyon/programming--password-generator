@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .body-wrapper {
@@ -41,7 +42,7 @@ body {
 }
 
 #password-output {
-  font-size: 40px;
+  font-size: 4vw;
   font-weight: bold;
   font-family: var(--secondary-font-family);
   background-color: var(--secondary-background-color);
@@ -62,7 +63,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: xx-large;
+  font-size: 3vw;
+}
+
+@media (min-width: 1050px) {
+  .option-box form {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 1050px) {
+  .option-box {
+    height: min-content;
+  }
+
+  .option-box form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+  }
 }
 
 .form-field {

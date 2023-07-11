@@ -1,6 +1,6 @@
 header {
   background-color: var(--primary-color);
-  height: 80px;
+  max-height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,4 +16,18 @@ header img {
 header h1 {
   font-family: var(--primary-font-family);
   color: var(--primary-font-color);
+  font-size: 48px;
+}
+
+@media (max-width: 1050px) {
+  header {
+    padding: 0px 10px;
+  }
+  header img {
+    width: 0px;
+  }
+
+  header h1 {
+    font-size: 6vw;
+  }
 }
